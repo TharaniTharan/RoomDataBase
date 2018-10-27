@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".View.DelectUserFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="DELECT USER"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/delectnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_marginTop="50dp"
+        android:hint="Enter User ID"
+        android:inputType="number"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/delect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="Delect" />
+</LinearLayout>
